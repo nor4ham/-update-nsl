@@ -1,0 +1,28 @@
+/************ Custom Font ************/
+
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/alfont_com_AlFont_com_29LTAzer-Slanted-1.ttf');
+	font-weight: 400;
+}
+
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  direction: rtl;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  color:#3E3E3E !important;
+  font-family: 'Centra', sans-serif !important;
+}
